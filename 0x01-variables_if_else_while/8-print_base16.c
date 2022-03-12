@@ -14,12 +14,12 @@ int main(void)
 		putchar(i);
 		i++;
 	}
-	int j = 97;
+	i = 97;
 
-	while (j < 103)
+	while (i < 103)
 	{
-		putchar(j);
-		j++;
+		putchar(i);
+		i++;
 	}
 	putchar('\n');
 }
